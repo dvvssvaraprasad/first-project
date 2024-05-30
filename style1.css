@@ -1,0 +1,30 @@
+.part {
+    background: black;
+    display: ruby-text;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.head {
+    border: 2px solid;
+    border-right: none;
+    border-left: none;
+    display: inline-block;
+    margin-left: 231px;
+    font-family: ui-monospace;
+}
+.flowers{
+    display: flex;
+    height: 250px;
+}
+.names {
+    display: ruby-text;
+    margin: 13px 124px 5px 67px;
+    font-size: larger;
+
+}
